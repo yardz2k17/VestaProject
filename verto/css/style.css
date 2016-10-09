@@ -1,0 +1,295 @@
+/*Responsive CSS*/
+
+/*Layout*/
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 99%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    background-image: url(images/top-back.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+/*Navigation*/
+.main-nav {
+    width: 100%;
+    height: 774px;
+    background-color: transparent;
+    
+    background-repeat:no-repeat;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    height: 100%;
+    width: 100%
+}
+
+.nav-menu li {
+    float: right;
+    background-color: transparent;
+}
+
+.nav-menu li:last-child {
+    float: left;
+}
+
+.nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover:not(.active) {
+    color:  #99e600;
+}
+
+.logo{
+    height: 95px;
+    width: 130px;
+}
+
+/*CONTENT*/
+
+main{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about{
+    margin: 0 auto;
+    text-align: center;
+    width:80%;
+}
+
+.about h1, h2{
+    color: #99e600;
+}
+
+.about h1{
+    font-size: 50px;
+    margin-top: 7%;
+}
+
+.about h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.about p {
+    margin-top: 5%;
+    line-height: 150%;
+}
+
+.vid-btn{
+    width:345px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #99e600;
+    color: white;
+    border-radius: 5px;
+    border: 1px #99e600 ;
+}
+
+.col{
+    width:25%;
+    text-align: center;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.col h1, h2{
+    color: #99e600
+}
+
+.col h1{
+    font-size: 40px;
+}
+
+.col h2{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.info{
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.info h1{
+    font-size: 60px;
+    text-align: center;
+    color: #99e600;
+    margin-top: 5%;
+}
+
+.info p{
+
+     margin-top: 5%;
+     line-height: 150%;
+}
+
+.symbols{
+    width: 33%;
+    text-align: center;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.symbols h2{
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+
+footer{
+    height: 10%;
+    width: 99%;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.menu-trigger{
+    display: none;
+}
+
+@media screen and (max-width: 500px) { 
+    .menu-trigger {
+        display: block;
+        color: white;
+        background-color: #99e600;
+        padding: 10px;
+        text-align: right;
+        font-size: 100%;
+        cursor: pointer;
+    }
+    
+    .main-nav {
+        display: none;
+        width: 100%;
+        height: 774px;
+        background-color: transparent;
+        background-repeat:no-repeat;
+    }
+    
+    .nav-expanded {
+        display: block;
+    }
+    
+    .nav-menu li {
+        float: none;
+    }
+
+
+.logo{
+    height: 95px;
+    width: 130px;
+}
+
+/*CONTENT*/
+
+.about{
+    margin: 0 auto;
+    text-align: center;
+    width:80%;
+}
+
+.about h1{
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.about h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.about p {
+    font-size: 14px;
+    margin-top: 1%;
+    line-height: 150%;
+}
+
+.vid-btn{
+    width:170px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #99e600;
+    color: white;
+    border-radius: 5px;
+    border: 1px #99e600 ;
+}
+
+.col{
+    width:100%;
+    text-align: center;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.col h1, h2{
+    color: #99e600
+}
+
+.col h1{
+    font-size: 40px;
+}
+
+.col h2{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.info{
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.info h1{
+    font-size: 40px;
+    text-align: center;
+    color: #99e600;
+    margin-top: 5%;
+}
+
+.info p{
+     margin-top: 5%;
+     line-height: 150%;
+     font-size: 14px;
+}
+
+.symbols{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.symbols h2{
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+    
+}
